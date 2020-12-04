@@ -1,0 +1,17 @@
+@font-face
+{
+    font-family: 'GeorgeCafeLight';
+    src: url(fonts/LouisGeorgeCafeLight.ttf);
+}
+
+body 
+{
+    margin: auto;
+    text-align: center;
+    font-family: 'GeorgeCafeLight';
+    font-size: xx-large;
+}
+.doc
+{
+    font-size: small;
+}

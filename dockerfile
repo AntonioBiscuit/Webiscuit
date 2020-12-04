@@ -1,5 +1,4 @@
 FROM nginx
-
-COPY default.conf /etc/nginx/conf.d/default.conf
-COPY index.html /usr/share/nginx/html/index.html
-COPY favicon.ico /usr/share/nginx/html/favicon.ico
+RUN rm /etc/nginx/nginx.conf /etc/nginx/conf.d/default.conf
+COPY content /usr/share/nginx/html
+COPY conf /etc/nginx
