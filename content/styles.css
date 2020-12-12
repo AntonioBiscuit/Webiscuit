@@ -10,13 +10,13 @@ body
     text-align: center;
     font-family: 'GeorgeCafe';
     font-weight:normal;
-    font-style:normal;
+	font-style:normal;
 }
 
 img
 {
     max-width: 60%;
-    height: auto;
+	height: auto;
 }
 
 #config ul
